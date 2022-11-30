@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="calculadoraimc.js"></script>
+    <title>Cesur Olimpic</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img  class="imagen" src="img\logo.png" alt="">
+        </div>
+        <div class="menu">
+           <a  href="index.html">Inicio</a>
+            <a class="destacar" href="utilidades.html">Utilidades</a>
+        </div>
+    </header>
+    <main class="IMC">
+        <div class="lateral">
+            <a href="calculadoraimc.html"><li class="destacarLateral" > Calculadora del IMC</li></a>
+            <a href="calculadorafcm.html"><li>Calculadora de FCM</li></a>
+            <a href="calculadoracategoria.html"><li>Calculadora de categoria</li></a>
+            <a href="horarioasociocon.html"><li id="primero">Horario de la asociacion</li></a>
+        </div>
+        <div class="cuerpo">
+            <h1>Calculadora del Indice de Masa Corporal</h1>
+            
+                <label for="metro">Introduce tu estatura en centimetros</label>
+                <input type="text" id="metro" name="metro">
+                <label for="peso">Introduce tu peso en kilogramos</label>
+                <input type="text" id="peso" name="peso">
+                <button onclick="variables()">Enviar</button> <br>
+                <h2>Tu indice de masa corporal es:<span id="9"></span></h2>
+            
+            <div class="pesos">
+                <p id="1">16.00: Infrapeso (delgadez severa) </p>
+                <p id="2">16.00 -16.99: Infrapeso (delgadez moderada)</p>
+                <p id="3">17.00 -18.49: Infrapeso (delgadez aceptable)</p>
+                <p id="4">18.50 -24.99: Peso normal</p>
+                <p id="5">25.00 -29.99: Sobrepeso</p>
+                <p id="6">30.00 -34.99: Obeso (Tipo I)</p>
+                <p id="7">35.00 -40.00: Obeso (Tipo II)</p>
+                <p id="8">40.00: Obeso (Tipo III)</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="divfooterImg">
+            <img class="footerImg" src="img\All_rights_reserved_white_logo.svg-removebg-preview.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="horaio.js"></script>
+    <title>Cesur Olimpic</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img  class="imagen" src="img\logo.png" alt="">
+        </div>
+        <div class="menu">
+           <a  href="index.html">Inicio</a>
+            <a class="destacar" href="utilidades.html">Utilidades</a>
+        </div>
+    </header>
+    <main class="IMC">
+        <div class="lateral">
+            <a href="calculadoraimc.html"><li> Calculadora del IMC</li></a>
+            <a href="calculadorafcm.html"><li>Calculadora de FCM</li></a>
+            <a href="calculadoracategoria.html"><li>Calculadora de categoria</li></a>
+            <a  href="horarioasociocon.html"><li id="primero" class="destacarLateral">Horario de la asociacion</li></a>
+        </div>
+        <div class="cuerpo">
+            <h1>Horario de la Asociacion</h1>
+            <button onclick="horarioMañana()">Horario Mañana</button>
+            <button onclick="horarioTarde()">Horario Tarde</button>
+            <div id="horarioMañana"></div>
+            <div id="horarioTarde"></div>
+        </div>
+    </main>
+    <footer>
+        <div class="divfooterImg">
+            <img class="footerImg" src="img\All_rights_reserved_white_logo.svg-removebg-preview.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>

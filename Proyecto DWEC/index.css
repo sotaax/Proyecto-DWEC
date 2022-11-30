@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+}
+header{
+    background-color:#1c3b73;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    height: 76.3vh;
+}
+main.IMC{
+    height: 76.3vh;
+}
+footer{
+    background-color:#1c3b73;
+    height: 130px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.divfooterImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+}
+.footerImg{
+    height: 50px;
+}
+.lateral{
+    background-color: #1c3b73;
+    flex: 1;
+    
+}
+.cuerpoIndex{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.cuerpoIndex h1{
+    margin-left: 25%;
+}
+@media screen and (max-width:900px) {
+    main{
+        height: 150vh;
+    }
+    .mapa{
+        display: flex;
+        width: 300px;
+    }
+}
+.conoces{
+    display: flex;
+    text-align: justify;
+    margin-left: 25%;
+}
+.ubicacion{
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 25%;
+
+}
+.ubicacionTexto{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    
+    flex: 10;
+}
+.mapa{
+    display: flex;
+    margin-left: 5%;
+    flex: 3;
+}
+.cuerpo{
+    flex:9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2%;
+}
+
+.botones{
+    display: flex;
+}
+.imagen{
+    margin-left:2%;
+    width:100px;
+}
+.lateral li{
+    list-style: none;
+    color: white;
+    padding:20px 9px;
+    text-decoration: underline;
+    border-top: 1px solid #f9c53b;
+    font-size: 15px;
+}
+#primero{
+    border-bottom: 1px solid #f9c53b;
+}
+.destacarLateral{
+    color: #f9c53b !important; 
+}
+.lateral a{
+    color: white;
+}
+.menu {  
+    display: flex;
+}
+.menu a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px 20px;
+}
+.destacar{
+    background-color:#f9c53b;
+    color: black !important;
+    margin-top: 25px;
+    height:25px;
+}
+.categorias p{
+    font-size: 25px;
+}
+.destacarLateral{
+    color: #f9c53b !important; 
+}
+.informacion{
+    font-size: 25px;
+}
+.pesos{
+    font-size: 20px;
+}
